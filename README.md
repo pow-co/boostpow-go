@@ -2,7 +2,13 @@
 
 This document describes the overall design of the project, which is not written yet. 
 
-Boost POW is a library for embedding hash puzzles in Bitcoin script. The point is to draw the attention of Bitcoiners to information that is probably important. [Here]() is the whitepaper. 
+Boost POW is a library for embedding hash puzzles in Bitcoin script. The point is to draw the attention of Bitcoiners to information that is probably important. [Here](https://bitcoinfiles.org/t/7332808b5283f8acedcc6240a42f669cc3d305413201527852061fd5b283d0d8) is the whitepaper. 
+
+Some other articles describing the economics and rationale for Boost POW: 
+
+* [Proof-of-Work as a Handicap](https://bitcoinfiles.org/t/0c9544cf8650794d0221a0b11fec45ed19409e6deef9b3eeeea7ee956cdde7af)
+* [Proof-of-work as an Upvote System](https://bitcoinfiles.org/t/f9e6c4f0ac7219257e1276cd23c1bff5e5088204ff4e3471786c6252fb00f01e)
+* [Pow.co FAQ](https://github.com/DanielKrawisz/Entropy/blob/main/Pow.co%20FAQ.md)
 
 ## Protocol Design
 
@@ -41,8 +47,8 @@ Input script field:
 
 * [**go-work**](https://github.com/DanielKrawisz/go-work): A golang libary for hash puzzles. 
 * [**go-Stratum**](https://github.com/DanielKrawisz/go-Stratum): An incomplete golang libary for Stratum messages. 
-* [**Gigamonkey**](): A c++ library that implements Boost and Stratum with extensive tests. 
-* [**boostpow-js**](): A JavaScript library that implements Boost POW. In particular, there are unit tests that can be traslated here. 
+* [**Gigamonkey**](https://github.com/Gigamonkey-BSV/Gigamonkey): A c++ library that implements Boost and Stratum with extensive tests. 
+* [**boostpow-js**](https://github.com/pow-co/boostpow-js/): A JavaScript library that implements Boost POW. In particular, there are unit tests that can be traslated here. 
 
 ## Design of the Library
 
