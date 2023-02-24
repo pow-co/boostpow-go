@@ -85,6 +85,9 @@ expected values:
 }
 ```
 
+spending transaction: `0xc5c7248302683107aa91014fd955908a7c572296e803512e497ddf7d1f458bd3`
+redeeming transaction: `0x99bbbc28d39427bf530c05dc90db12e0953122fe5055afce6370d89a0085c28d`
+
 ### Bounty, version 2
 
 script hex: 
@@ -104,6 +107,23 @@ expected values:
   category: 1111
   user_nonce: 137 
   version: 2
+}
+```
+
+spending transaction: `0x12aaef887e8348e83eac2937849de22a0bda8f7c2c819199bbcbb20b01722144`
+redeeming transaction: `0x0f38e43dfc603296ef6883da389fc93815c0535bfba255b070a98bd6cc4da984`
+
+redeeming script values: 
+
+```
+{
+  signature: 304502210081cac0bdfb713e8c6632ec8c7b6f1d070b19a43c3b06e05174f25dc9065c6e910220787dd9d0f58f79cda8b7f5b436eb2f8cd6d50dc5271e6216308c286406d4166141  
+  pubkey: 03e0fd48907c0117600a6326aafe7d43adbc9421a4381bb6579f1ab4912cd25e37 
+  nonce : 5267719, 
+  timestamp : 1677269436, 
+  extra_nonce_2 : "b4d8e1f74255bebc", 
+  extra_nonce_1 : 2329617541, 
+  miner_pubkey_hash: 0x81bb8505a9999135a105e2f0290d55b1b70f7d3f
 }
 ```
 
