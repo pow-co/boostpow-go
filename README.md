@@ -86,6 +86,7 @@ expected values:
 ```
 
 spending transaction: `0xc5c7248302683107aa91014fd955908a7c572296e803512e497ddf7d1f458bd3`
+
 redeeming transaction: `0x99bbbc28d39427bf530c05dc90db12e0953122fe5055afce6370d89a0085c28d`
 
 ### Bounty, version 2
@@ -111,6 +112,7 @@ expected values:
 ```
 
 spending transaction: `0x12aaef887e8348e83eac2937849de22a0bda8f7c2c819199bbcbb20b01722144`
+
 redeeming transaction: `0x0f38e43dfc603296ef6883da389fc93815c0535bfba255b070a98bd6cc4da984`
 
 redeeming script values: 
@@ -151,6 +153,7 @@ expected values:
 ```
 
 spending transaction: `0xed122aa475c02ee049b342d9224bc140f015eee30b8411ad999c6a8378d9766e`
+
 redeeming transaction: `0x85f9461ce4c88755052673edc6aab16d817b80aad6ce02ad2e80d36e6df78317`
 
 redeeming script values: 
@@ -190,6 +193,7 @@ expected values:
 ```
 
 spending transaction: `0x6a26e314d33cfb0948e9bb12559abc9c687403c639e4302faf562d818b2ff0a2`
+
 redeeming transaction: `0xa512c846b0154d23325f40ef87a088d747252fc2a179cca067a6026ee59c5ea6`
 
 redeeming script values: 
