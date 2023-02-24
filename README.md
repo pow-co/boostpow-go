@@ -89,6 +89,20 @@ spending transaction: `0xc5c7248302683107aa91014fd955908a7c572296e803512e497ddf7
 
 redeeming transaction: `0x99bbbc28d39427bf530c05dc90db12e0953122fe5055afce6370d89a0085c28d`
 
+redeeming script values: 
+
+```
+{
+  signature: 3044022100ac4003d62ddadbf0bff9cbe63d0f6ad740494ee7fcf5f296cfc056f52f087c7c021f2f9e2db03b141ce88edc1c10850a0831dea63edd6c6a8040d80e24737e6d4a41  
+  pubkey: 03097e9768554d40c0b5b18e44db2a15bbd137a373c39af46033049477bcbb79a4 
+  nonce : 31497 
+  timestamp : 1677268580
+  extra_nonce_2 : "0f0445b186e64adc"
+  extra_nonce_1 : 909479219 
+  miner_pubkey_hash: 0xa3c10ac097a7da0009a786cc17edc1391a3bddf6
+}
+```
+
 ### Bounty, version 2
 
 script hex: 
