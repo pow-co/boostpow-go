@@ -119,10 +119,10 @@ redeeming script values:
 {
   signature: 304502210081cac0bdfb713e8c6632ec8c7b6f1d070b19a43c3b06e05174f25dc9065c6e910220787dd9d0f58f79cda8b7f5b436eb2f8cd6d50dc5271e6216308c286406d4166141  
   pubkey: 03e0fd48907c0117600a6326aafe7d43adbc9421a4381bb6579f1ab4912cd25e37 
-  nonce : 5267719, 
-  timestamp : 1677269436, 
-  extra_nonce_2 : "b4d8e1f74255bebc", 
-  extra_nonce_1 : 2329617541, 
+  nonce : 5267719 
+  timestamp : 1677269436 
+  extra_nonce_2 : "b4d8e1f74255bebc" 
+  extra_nonce_1 : 2329617541 
   miner_pubkey_hash: 0x81bb8505a9999135a105e2f0290d55b1b70f7d3f
 }
 ```
@@ -150,6 +150,22 @@ expected values:
 }
 ```
 
+spending transaction: `0xed122aa475c02ee049b342d9224bc140f015eee30b8411ad999c6a8378d9766e`
+redeeming transaction: `0x85f9461ce4c88755052673edc6aab16d817b80aad6ce02ad2e80d36e6df78317`
+
+redeeming script values: 
+
+```
+{
+  signature: 3045022100ac1f6aa4153037920cec3d18ef6e129eaefabe88c98f8e19aea7af806b645aad02203b521118c2b7b5fa64382f559db17a5d58e0d160196d3f06989df98731215f1b41
+  pubkey: 03e0fd48907c0117600a6326aafe7d43adbc9421a4381bb6579f1ab4912cd25e37 
+  nonce : 4799381
+  timestamp : 1677270497
+  extra_nonce_2 : "2df60742aed5d329"
+  extra_nonce_1 : 1035367878
+}
+```
+
 ### Contract, version 2
 
 script hex: 
@@ -170,5 +186,21 @@ expected values:
   user_nonce: 137 
   miner_address: 16nhPWCkbkR1bNACwPYULBWyvxQ5MCDZBo
   version: 2
+}
+```
+
+spending transaction: `0x6a26e314d33cfb0948e9bb12559abc9c687403c639e4302faf562d818b2ff0a2`
+redeeming transaction: `0xa512c846b0154d23325f40ef87a088d747252fc2a179cca067a6026ee59c5ea6`
+
+redeeming script values: 
+
+```
+{
+  signature: 304402201f94a12ace389cd389ef129dc9b68eb1a357ff6f71a508aa0b3accd90736007702206d316fce43e5ae24a6b07acc342e0f7a5c0d0366a2a00dee00acbb25b8f4f6a941
+  pubkey: 03e0fd48907c0117600a6326aafe7d43adbc9421a4381bb6579f1ab4912cd25e37 
+  nonce : 3901135
+  timestamp : 1677271659
+  extra_nonce_2 : "4f22be6e277ead90"
+  extra_nonce_1 : 3783406472
 }
 ```
